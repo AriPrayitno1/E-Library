@@ -1,0 +1,6 @@
+.banner{
+    position: relative;
+    width: 100%;
+    z-index: 5;
+    margin-top: -90px;
+}

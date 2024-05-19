@@ -1,0 +1,46 @@
+.bookDetail{
+    height: 100vh;
+    padding: 30px 50px;
+    background-color: #2271CD;
+}
+
+.header-text{
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.book-info{
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.book-info img{
+    width: 100px;
+}
+
+hr{
+    color: #fff;
+    width: 200px;
+    margin: 10px 0;
+}
+
+.book-profile{
+    margin-bottom: 20px;
+}
+
+
+.stock-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.stock-info button{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 30px;
+}

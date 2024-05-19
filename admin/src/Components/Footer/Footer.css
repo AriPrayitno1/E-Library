@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3D4852;
+    color: #FFF;
+    padding: 30px 100px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}

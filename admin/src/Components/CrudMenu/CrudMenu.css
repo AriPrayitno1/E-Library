@@ -1,0 +1,14 @@
+.crud-icon{
+    width: 110px;
+    padding: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.crud-icon img{
+    width: 80px;
+}
