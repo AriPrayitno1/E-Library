@@ -1,0 +1,15 @@
+.notification-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: black;
+}
+
+.notification-item img{
+    width: 40px;
+    margin-left: 10px;
+}

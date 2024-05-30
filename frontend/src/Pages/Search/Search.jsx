@@ -2,7 +2,6 @@ import React from 'react'
 import "../Search/Search.css"
 import all_book from '../../assets/all_book'
 import SearchBar from '../../Components/SearchBar/SearchBar'
-import Navbar from '../../Components/Navbar/Navbar'
 import Card from '../../Components/Card/Card'
 
 const Search = () => {
@@ -14,7 +13,6 @@ const Search = () => {
                 return <Card key={i} id={item.id} title={item.title} image={item.image}/>
             })}
         </div>
-        <Navbar />
     </>
   )
 }

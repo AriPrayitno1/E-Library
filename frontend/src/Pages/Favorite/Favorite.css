@@ -1,0 +1,14 @@
+.favorite-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #2271CD;
+}
+
+.favorite {
+    flex: 1;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Tambahkan jarak antara notifikasi */
+}

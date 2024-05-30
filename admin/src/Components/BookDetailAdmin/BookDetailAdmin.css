@@ -1,0 +1,99 @@
+.bookDetail-admin-container{
+    height: 100vh;
+    color: black;
+}
+
+.search-bar-component {
+    display: flex;
+    justify-content: center;
+    width: calc(100vw - 400px); /* Mengurangi lebar untuk mengimbangi left */
+    position: relative;
+    left: 0; /* Mengatur posisi ke 0 untuk menghindari overflow */
+    z-index: 10;
+    margin: -20px auto 50px auto; /* Menggunakan auto untuk margin kiri dan kanan */
+    max-width: 100vw; /* Menjamin lebar tidak melebihi viewport */
+}
+
+.bookDetail-admin-info{
+    padding: 0 80px;
+}
+
+.bookDetail-admin-info hr{
+    width: 100%;
+}
+
+.header-text{
+    margin-bottom: 40px;
+}
+
+.book-info{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.book-info img{
+    width: 200px;
+    height: 300px;
+}
+
+.book-status-location td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px 16px;
+}
+
+.favorite-icon{
+    width: 20px;
+    height: 30px;
+    margin-left: -40px;
+}
+
+hr{
+    width: 200px;
+    margin: 10px 0;
+}
+
+.book-profile{
+    margin: 40px 0;
+}
+
+.stock-info{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+
+.stock-info h2{
+    font-size: 40px;
+}
+
+.stock-info button{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 30px;
+}
+
+.edit-peminjaman-btn{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.edit-peminjaman-btn button{
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.peminjaman-form-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.peminjaman-form{
+    padding: 20px 70px;
+    background-color: #E7EBEE;
+    border-radius: 10px;
+}
+
+.peminjaman-form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.peminjaman-form input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+}
+
+.peminjaman-form-btn{
+    display: flex;
+    
+}
+
+.peminjaman-form-btn button{
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 25px;
+}

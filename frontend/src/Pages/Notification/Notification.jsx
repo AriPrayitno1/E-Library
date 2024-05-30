@@ -1,19 +1,16 @@
 import React from 'react'
 import "../Notification/Notification.css"
-import Navbar from '../../Components/Navbar/Navbar'
-import NotificationCard from '../../Components/NotificationCard/NotificationCard'
+import NotificationItem from '../../Components/NotificationItem/NotificationItem'
 
 const Notification = () => {
   return (
     <>
         <div className='notification-container'>
             <div className='notification'>
-                <NotificationCard />
+                <NotificationItem />
                 
             </div>
         </div>
-        
-        <Navbar />
     </>
   )
 }

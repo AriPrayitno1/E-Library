@@ -1,0 +1,85 @@
+.addBook-field{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.addBook-form-container{
+    padding: 20px 70px;
+    background-color: #E7EBEE;
+    border-radius: 10px;
+}
+
+.addBook-form-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addBook-form-container input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+}
+
+.addBook-form-container textarea{
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.addBook-form{
+    display: flex;
+    gap: 20px;
+}
+
+.addBook-text{
+    flex-basis: 50%;
+}
+
+.addBook-image{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.addBook-image button{
+    background-color: #D9D9D9;
+    width: 200px;
+    height: 350px;
+    font-size: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+.ketersediaan-form{
+    display: flex;
+    gap: 5px;
+}
+
+.informasi-detail-form{
+    display: flex;
+    gap: 5px;
+}
+
+.addBook-form-btn{
+    display: flex;
+    
+}
+
+.addBook-form-btn button{
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 25px;
+    cursor: pointer;
+}

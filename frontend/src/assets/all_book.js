@@ -1,102 +1,201 @@
-import b1_img from "./book1.jpeg" 
-import b2_img from "./book2.jpeg" 
-import b3_img from "./book3.jpeg" 
-import b4_img from "./book4.jpeg" 
-import b5_img from "./book5.jpeg" 
-import b6_img from "./book6.jpeg" 
-import b7_img from "./book7.jpeg" 
-import b8_img from "./book8.jpeg" 
-import b9_img from "./book9.jpeg" 
+import b1_img from "../assets/book1.jpg" 
+import b2_img from "../assets/book2.jpg" 
+import b3_img from "../assets/book3.jpg"
+import b4_img from "../assets/book4.jpg" 
+import b5_img from "../assets/book5.jpg"
+import b6_img from "../assets/book6.jpg" 
+import b7_img from "../assets/book7.jpg" 
+import b8_img from "../assets/book8.jpg" 
 
 let all_book = [
     {
         id: 1,
-        title: "Boga Dasar",
+        title: "Pendidikan agama Islam dan budi pekerti SMA/SMK",
         image: b1_img,
-        categorie: "tata boga",
-        desc: "Tata boga adalah ilmu tentang pengolahan makanan." + 
-                "Mulai dari bahan, teknik, hingga penyajian." + 
-                "Tujuannya: hidangan yang lezat, menarik, bergizi, dan aman.",
+        categorie: "Pendidikan Agama Islam",
+        writer: "Choirul Ansori",
+        publisher: "Yudhistira",
+        ISBN: "978-623-257-413-7 (jil.2 )",
         stock: 22,
     },
     {
         id: 2,
-        title: "Industri Perhotelan",
+        title: "Pendidikan Agama Islam & Budi Pekerti",
         image: b2_img,
-        categorie: "perhotelan",
-        desc: "Tata boga adalah ilmu tentang pengolahan makanan." + 
-                "Mulai dari bahan, teknik, hingga penyajian." + 
-                "Tujuannya: hidangan yang lezat, menarik, bergizi, dan aman.",
+        categorie: "Pendidikan Agama Islam",
+        writer: "Drs. H. A. Sholeh Dimyathi, MF., M.M., Munawir A.M., M.S.I., Drs. Hj. Iim Halimah, Drs. H. Abd. Rahman, M.A., Drs. H. Ridhwan Ms. MM ;",
+        publisher: "Erlangga",
+        ISBN: "978-623-180-343-6 (jil.3)",
         stock: 22,
     },
     {
         id: 3,
-        title: "Manajemen Tata Boga",
+        title: "Matematika",
         image: b3_img,
-        categorie: "tata boga",
-        desc: "Tata boga adalah ilmu tentang pengolahan makanan." + 
-                "Mulai dari bahan, teknik, hingga penyajian." + 
-                "Tujuannya: hidangan yang lezat, menarik, bergizi, dan aman.",
+        categorie: "Matematika",
+        writer: "Arif Ediyanto, M.Pd., Maya Harsasi, M.Pd.",
+        publisher: "Erlangga",
+        ISBN: "978-623-180-115-9 (jil.3)",
         stock: 22,
     },
     {
         id: 4,
-        title: "Pengetahuan Dasar Perhotelan",
+        title: "Matematika SMK",
         image: b4_img,
-        categorie: "perhotelan",
-        desc: "Tata boga adalah ilmu tentang pengolahan makanan." + 
-                "Mulai dari bahan, teknik, hingga penyajian." + 
-                "Tujuannya: hidangan yang lezat, menarik, bergizi, dan aman.",
+        categorie: "Matematika",
+        writer: "Kasmina, Toali",
+        publisher: "Erlangga",
+        ISBN: "978-602-434-745-1 (jil.1)",
         stock: 22,
     },
     {
         id: 5,
-        title: "Desain Media Interaktif",
+        title: "Pendidikan Pancasila dan Kewarganegaraan",
         image: b5_img,
-        categorie: "multimedia",
-        desc: "Tata boga adalah ilmu tentang pengolahan makanan." + 
-                "Mulai dari bahan, teknik, hingga penyajian." + 
-                "Tujuannya: hidangan yang lezat, menarik, bergizi, dan aman.",
+        categorie: "Pendidikan Pancasila dan Seni Budaya",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-090-2 (no jil lengkap)",
         stock: 22,
     },
     {
         id: 6,
-        title: "Koala Kumal",
+        title: "Seni Budaya untuk SMA",
         image: b6_img,
-        categorie: "tata boga",
-        desc: "Tata boga adalah ilmu tentang pengolahan makanan." + 
-                "Mulai dari bahan, teknik, hingga penyajian." + 
-                "Tujuannya: hidangan yang lezat, menarik, bergizi, dan aman.",
+        categorie: "Pendidikan Pancasila dan Seni Budaya",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-142-8 (no jil lengkap)",
         stock: 22,
     },
     {
         id: 7,
-        title: "Hujan",
+        title: "Seni Budaya untuk SMA",
         image: b7_img,
-        categorie: "tata boga",
-        desc: "Tata boga adalah ilmu tentang pengolahan makanan." + 
-                "Mulai dari bahan, teknik, hingga penyajian." + 
-                "Tujuannya: hidangan yang lezat, menarik, bergizi, dan aman.",
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-142-8 (no jil lengkap)",
         stock: 22,
     },
     {
         id: 8,
-        title: "Multimedia",
+        title: "Bahasa Inggris untuk SMA",
         image: b8_img,
-        categorie: "multimedia",
-        desc: "Tata boga adalah ilmu tentang pengolahan makanan." + 
-                "Mulai dari bahan, teknik, hingga penyajian." + 
-                "Tujuannya: hidangan yang lezat, menarik, bergizi, dan aman.",
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
         stock: 22,
     },
     {
         id: 9,
-        title: "Merancang Multimedia Pembelajaran",
-        image: b9_img,
-        categorie: "multimedia",
-        desc: "Tata boga adalah ilmu tentang pengolahan makanan." + 
-                "Mulai dari bahan, teknik, hingga penyajian." + 
-                "Tujuannya: hidangan yang lezat, menarik, bergizi, dan aman.",
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 10,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 11,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 12,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 13,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 14,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 15,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 16,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 17,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 18,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
+        stock: 22,
+    },
+    {
+        id: 19,
+        title: "Bahasa Inggris untuk SMA",
+        image: b8_img,
+        categorie: "Seni Budaya dan Bahasa Inggris",
+        writer: "-",
+        publisher: "Kemendikbudristek RI",
+        ISBN: "978-602-427-106-0 (no jil lengkap)",
         stock: 22,
     },
 ];
