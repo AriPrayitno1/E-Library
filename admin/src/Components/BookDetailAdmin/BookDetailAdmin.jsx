@@ -54,17 +54,11 @@ const BookDetailAdmin = (props) => {
                 <div className=''>
                     <h2>{book.title}</h2>
                     <hr />
-                    <p>Deskripsi:</p>
-                    <p>Lorem, ipsum dolor sit amet 
-                    consectetur adipisicing elit. 
-                    Eligendi, veniam a? Numquam 
-                    ratione doloremque cumque.</p>
-                    <hr />
                     <h4>Ketersediaan:</h4>
 
                     <table className='book-status-location'>
                         <tr>
-                            <td>No Rak: 1</td>
+                            <td>Lokasi Rak: {book.categorie}</td>
                             <td>Perpustakaan SMKN 6 Jambi</td>
                             <td>Tersedia</td>
                         </tr>
@@ -76,56 +70,26 @@ const BookDetailAdmin = (props) => {
                         <table>
                             <tbody>
                                 <tr>
-                                    <td className="label">Judul Seri</td>
+                                    <td className="label">Penulis</td>
                                     <td>:</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr>
-                                    <td className="label">No. Panggil</td>
-                                    <td>:</td>
-                                    <td>297.63 SYA p</td>
+                                    <td>{book.writer}</td>
                                 </tr>
                                 <tr>
                                     <td className="label">Penerbit</td>
                                     <td>:</td>
-                                    <td>London Rajawali Press., 2020</td>
+                                    <td>{book.publisher}</td>
                                 </tr>
                                 <tr>
-                                    <td className="label">Deskripsi Fisik</td>
+                                    <td className="label">ISBN</td>
                                     <td>:</td>
-                                    <td>Deskripsi Fisik</td>
-                                </tr>
-                                <tr>
-                                    <td className="label">Bahasa</td>
-                                    <td>:</td>
-                                    <td>Inggris</td>
-                                </tr>
-                                <tr>
-                                    <td className="label">ISBN/ISSN</td>
-                                    <td>:</td>
-                                    <td>978-623-231-561-7</td>
-                                </tr>
-                                <tr>
-                                    <td className="label">Klasifikasi</td>
-                                    <td>:</td>
-                                    <td>297.63 SYA p</td>
-                                </tr>
-                                <tr>
-                                    <td className="label">Tipe Isi</td>
-                                    <td>:</td>
-                                    <td>Text</td>
-                                </tr>
-                                <tr>
-                                    <td className="label">Subjek</td>
-                                    <td>:</td>
-                                    <td>Multimedia</td>
+                                    <td>{book.ISBN}</td>
                                 </tr>
                             </tbody>
                         </table>
 
                         <div className='stock-info'>
                             <p>Ketersediaan</p>
-                            <h2>3</h2>
+                            <h2>{book.stock}</h2>
                         </div>
                         </div>
                     )}

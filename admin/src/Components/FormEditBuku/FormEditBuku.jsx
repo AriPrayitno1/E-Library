@@ -2,6 +2,14 @@ import React from 'react'
 import '../FormEditBuku/FormEditBuku.css'
 
 const FormEditBuku = () => {
+    const handleImageUpload = (event) => {
+        const file = event.target.files[0];
+        if (file) {
+          // Logic untuk meng-handle file yang diunggah, seperti mengunggah ke server atau menyimpan di state.
+          console.log('Image uploaded:', file);
+        }
+      };
+
   return (
     <>
         <div className='edit-field'>
@@ -45,7 +53,14 @@ const FormEditBuku = () => {
 
                     <div className='edit-image'>
                         <p>Sampul Buku</p>
-                        <button>+</button>
+                        <label htmlFor="imageUpload" className='uploadButton'>+</label>
+                        <input 
+                        id="imageUpload" 
+                        type="file" 
+                        accept="image/*" 
+                        onChange={handleImageUpload} 
+                        style={{ display: 'none' }} 
+                        />
                     </div>
                 </div>
             </div>

@@ -61,7 +61,7 @@
 }
 
 .collection-book{
-    margin-bottom: 50px;
+    margin-bottom: 50px;   
 }
 
 .collection-book p{
@@ -71,6 +71,11 @@
 .display-categorie{
     display: flex;
     gap: 20px;
+    overflow-x: auto;
+}
+
+.display-categorie::-webkit-scrollbar{
+    width: 0;
 }
 
 .display-categorie button{
