@@ -16,6 +16,10 @@
     gap: 20px;
 }
 
+.login-form button{
+    cursor: pointer;
+}
+
 .login-form h3{
     margin: 20px 0;
     color: #fff;

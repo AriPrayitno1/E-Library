@@ -18,16 +18,35 @@ const FormPengunjung = () => {
                         </div>
 
                         <p>Nama Siswa</p>
-                        <input type="text" />
+                        <input type="text" placeholder='Masukkan Nama'/>
+
+                        <div className='kelas-nis'>
+                            <div>
+                                <p>Kelas</p>
+                                <input list='kelas' name="" id="" />
+                                <datalist id='kelas'>
+                                    <option value="X"></option>
+                                    <option value="XI"></option>
+                                    <option value="XII"></option>
+                                </datalist>
+                            </div>
+
+                            <div>
+                                <p>NIS</p>
+                                <input type="text" placeholder='Nomor Induk Siswa'/>
+                            </div>
+                        </div>
 
                         <p>Kelas</p>
-                        <input type="text" />
-
-                        <p>NIS</p>
-                        <input type="text" />
+                        <input list='kelas' name="" id="" />
+                            <datalist id='kelas'>
+                                <option value="X"></option>
+                                <option value="XI"></option>
+                                <option value="XII"></option>
+                            </datalist>
 
                         <p>Keperluan</p>
-                        <input type="text" />
+                        <input type="text" placeholder='Membaca, Meminjam'/>
 
                         <div className='visitor-form-btn'>
                             <button>Simpan</button>

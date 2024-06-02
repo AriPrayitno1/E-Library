@@ -16,7 +16,7 @@ const LoginSignup = () => {
         <div className='login-form'>
               <h3>Masuk Sebagai:</h3>
               <Link to={"/home"}><button className='anggota-btn'>Anggota</button></Link>
-              <Link to={"/home"}><button className='admin-btn'>Admin</button></Link>
+              <a href='http://localhost:5173/'><button className='admin-btn'>Admin</button></a>
         </div>
       </div>
     </>

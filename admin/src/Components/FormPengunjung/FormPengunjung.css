@@ -57,3 +57,12 @@
     padding: 5px 25px;
     cursor: pointer;
 }
+
+.kelas-nis{
+    display: flex;
+    gap: 20px;
+}
+
+.kelas-nis div{
+    width: 100%;
+}

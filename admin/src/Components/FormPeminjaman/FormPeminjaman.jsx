@@ -21,7 +21,12 @@ const FormPeminjaman = () => {
                     <input type="text" />
 
                     <p>Kelas</p>
-                    <input type="text" />
+                    <input list='kelas' name="" id="" />
+                        <datalist id='kelas'>
+                            <option value="X"></option>
+                            <option value="XI"></option>
+                            <option value="XII"></option>
+                        </datalist>
 
                     <p>Jumlah Pinjaman</p>
                     <input type="text" />

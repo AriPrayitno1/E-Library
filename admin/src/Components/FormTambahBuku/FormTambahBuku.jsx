@@ -2,6 +2,7 @@ import React from 'react'
 import '../FormTambahBuku/FormTambahBuku.css'
 
 const FormTambahBuku = () => {
+
     const handleImageUpload = (event) => {
         const file = event.target.files[0];
         if (file) {
@@ -24,30 +25,22 @@ const FormTambahBuku = () => {
                         <p>ISBN</p>
                         <input type="text" />
 
-                        <p>Penulis</p>
+                        <p>Nama Penulis</p>
                         <input type="text" />
 
-                        <p>Deskripsi</p>
-                        <textarea name="" id="" rows={3}>
-
-                        </textarea>
+                        <p>Nama Penerbit</p>
+                        <input type="text" />
 
                         <p>Ketersediaan</p>
                         <div className='ketersediaan-form'>
-                            <input type="text" placeholder='No Rak'/>
+                            <input type="text" placeholder='Lokasi Rak'/>
                             <input type="text" placeholder='Jumlah'/>
                             <input type="text" placeholder='Tersedia'/>
                         </div>
 
-                        <p>Informasi Detail</p>
-                        <div className='informasi-detail-form'>
-                            <input type="text" placeholder='Bahasa'/>
-                            <input type="text" placeholder='Edisi'/>
-                            <input type="text" placeholder='Kategori'/>
-                        </div>
-
                         <div className='addBook-form-btn'>
                             <button>Simpan</button>
+                            <button>Batal</button>
                         </div>
                     </form>
 

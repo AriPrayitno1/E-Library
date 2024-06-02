@@ -54,7 +54,9 @@ const Dashboard = () => {
               <Link to={'/pengunjung'}>
                 <CrudMenu menu="Pengunjung"/>
               </Link>
-              <CrudMenu menu="Data Kunjungan"/>
+              <Link to={'/kunjungan'}>
+                <CrudMenu menu="Data Kunjungan"/>
+              </Link>
             </div>
           </div>
 
